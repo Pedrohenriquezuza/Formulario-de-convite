@@ -1,0 +1,22 @@
+#aside-container {
+  padding: 2rem;
+}
+
+#aside-container img {
+  width: 2.9rem;
+}
+
+#aside-container h1 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font: var(--font-logo);
+  font: var(--font-logo);
+  color: var(--pink);
+  line-height: auto;
+  height: 5.2rem;
+}
+
+#aside-container > p {
+  font-family: var(--font-family-body);
+  color: var(--text-heading);
+}
