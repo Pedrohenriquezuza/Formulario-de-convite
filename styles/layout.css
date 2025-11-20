@@ -15,6 +15,17 @@ main {
   }
 }
 
+#main-container {
+  max-width: 35rem;
+  margin: 5rem, 8rem;
+}
+
+form > h1 {
+  font: var(--font-heading-md);
+  color: var(--text-heading);
+  margin-bottom: 2.5rem;
+}
+
 aside {
   background-image: url(../assets/images/Background.png);
   background-size: contain;

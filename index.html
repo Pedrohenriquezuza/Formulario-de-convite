@@ -34,9 +34,14 @@
               </div>
 
               <div id="event-info">
-                <div class="input-wrapper">
+                <div class="input-wrapper grid-2">
                   <label for="event-name">Titulo</label>
-                  <input type="text" name="event-name" id="event-name" />
+                  <input
+                    type="text"
+                    name="event-name"
+                    id="event-name"
+                    placeholder="Nome do Evento"
+                  />
                 </div>
 
                 <div class="input-wrapper">
@@ -44,7 +49,7 @@
                   <input
                     type="datetime-local"
                     name="starttime"
-                    id="starttime"
+                    class="time-inputs"
                     lang="pt-br"
                   />
                 </div>
@@ -54,34 +59,46 @@
                   <input
                     type="datetime-local"
                     name="finishtime"
-                    id="finishtime"
+                    class="time-inputs"
                     lang="pt-br"
                   />
                 </div>
 
-                <div class="input-wrapper">
+                <div class="radio-wrapper">
                   <label>Tipo</label>
-                  <div id="radio-wrapper">
+                  <div id="radio-group">
                     <div class="radio-inner">
-                      <div class="radio-img"></div>
-                      <input type="radio" name="personally" id="personally" />
-                      <label for="personally">Presencial</label>
+                      <label>
+                        <img
+                          class="radio-img"
+                          src="assets/icons/building-2.svg"
+                        />
+                        <input type="radio" name="personally" id="personally" />
+                        Presencial
+                      </label>
                     </div>
 
                     <div class="radio-inner">
-                      <div class="radio-img"></div>
-                      <input type="radio" name="online" id="online" />
-                      <label for="online">Online</label>
+                      <label>
+                        <img class="radio-img" src="assets/icons/video.svg" />
+                        <input type="radio" name="personally" id="online" />
+                        Online
+                      </label>
                     </div>
                   </div>
                 </div>
 
                 <div class="input-wrapper">
                   <label for="locale">Local</label>
-                  <input type="text" name="locale" id="locale" />
+                  <input
+                    type="text"
+                    name="locale"
+                    id="locale"
+                    placeholder="Link ou endereço"
+                  />
                 </div>
 
-                <div class="input-wrapper">
+                <div class="textarea input-wrapper grid-2">
                   <label for="description">Descrição</label>
                   <textarea
                     name="description"
@@ -92,8 +109,6 @@
                   ></textarea>
                 </div>
               </div>
-
-
             </fieldset>
           </form>
         </div>

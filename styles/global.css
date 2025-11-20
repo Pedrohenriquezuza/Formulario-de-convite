@@ -6,12 +6,34 @@ body {
   background-color: var(--shape-body);
   overflow: hidden;
   color: var(--text-heading);
+  font-family: var(--font-family-body);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+fieldset {
+  border: 0;
+  outline: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--font-family-heading);
+}
+
+.flex {
+  display: flex;
+}
+
+.header-form {
+  gap: 0.7rem;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 1.5rem;
 }
 
 :root {

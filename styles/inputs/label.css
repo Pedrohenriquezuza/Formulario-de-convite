@@ -1,0 +1,5 @@
+label {
+  display: inline-block;
+  font: var(--font-body-sm-regular);
+  margin-bottom: 0.75rem;
+}

@@ -1,0 +1,31 @@
+
+
+#radio-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 1rem;
+  background-color: var(--input);
+  padding: 4px;
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+.radio-inner label {
+  display: flex;
+  gap: 4px;
+  padding: 5px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+.radio-inner input[type="radio"] {
+  display: none;
+}
+
+.radio-inner:has(input:checked) label {
+  background-color: var(--shape-hover);
+  border-radius: 3px;
+}

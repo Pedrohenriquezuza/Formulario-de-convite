@@ -1,0 +1,33 @@
+input {
+  width: 100%;
+}
+
+#event-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.grid-2 {
+  grid-column: span 2;
+}
+
+.input-wrapper input,
+textarea {
+  outline: 0;
+  height: 3rem;
+  border: 1px solid var(--input-stroke);
+  border-radius: 3px;
+  background-color: var(--input);
+  padding: 0.8rem 0 0.8rem 1rem;
+}
+
+.input-wrapper input,
+textarea::placeholder {
+  font: var(--font-body-md-regular);
+  color: var(--input-placeholder);
+}
+
+.time-inputs::-webkit-calendar-picker-indicator {
+  display: none;
+}
