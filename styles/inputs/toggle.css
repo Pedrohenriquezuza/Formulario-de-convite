@@ -1,0 +1,31 @@
+.toggle {
+  display: flex;
+  max-width: 10rem;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle-img {
+  width: 4rem;
+  height: 2rem;
+  display: none;
+}
+
+.toggle-text {
+  font-weight: 500;
+  display: none;
+}
+
+.toggle input:not(:checked) ~ .off,
+.toggle input:not(:checked) ~ .escuro {
+  display: inline;
+}
+.toggle input:checked ~ .on,
+.toggle input:checked ~ .claro {
+  display: inline;
+}
