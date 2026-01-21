@@ -1,7 +1,7 @@
-input {
+input[type="text"],
+input[type="datetime-local"] {
   width: 100%;
 }
-
 #event-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
