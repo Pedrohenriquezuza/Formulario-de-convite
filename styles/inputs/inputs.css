@@ -17,7 +17,7 @@ textarea {
   outline: 0;
   height: 3rem;
   border: 1px solid var(--input-stroke);
-  border-radius: 3px;
+  border-radius: 8px;
   background-color: var(--input);
   padding: 0.8rem 0 0.8rem 1rem;
 }

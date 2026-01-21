@@ -1,0 +1,41 @@
+.file-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.file-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 7.438rem;
+
+  padding: 10px 16px;
+  background-color: var(--shape-button);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+
+  line-height: 1;
+
+}
+
+.file-button svg {
+  width: 16px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.file-button .btn-text {
+  line-height: 1;
+}
+
+.file-name {
+  font-size: 14px;
+  color: #666;
+
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}

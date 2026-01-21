@@ -39,6 +39,11 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+#linha {
+  margin: 3rem 0px;
+  border-bottom: 1px solid var(--input-placeholder);
+}
+
 :root {
   /* Brand */
   --brand-light: #5982ff;
