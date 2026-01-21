@@ -1,4 +1,4 @@
-.date-info {
+.theme-info {
   display: grid;
   gap: 8px;
   grid-template-columns: repeat(4, 1fr);

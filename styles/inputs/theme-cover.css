@@ -1,0 +1,46 @@
+.style-cover {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.75rem;
+}
+
+.style div {
+  margin-top: 0.75rem;
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px;
+
+  & img {
+    margin-right: 0.75rem;
+  }
+
+  & span {
+    margin-right: 3.5rem;
+  }
+}
+
+.style-cover p {
+  font: var(--font-body-sm-regular);
+  margin-bottom: 0.75rem;
+}
+
+/*INPUT FILE*/
+
+.cover-photo {
+  position: relative;
+}
+.cover-photo div img {
+  position: absolute;
+}
+.cover-photo div {
+  display: flex;
+}
+
+.cover-photo input {
+  color: red;
+  background-color: var(--shape-button);
+  outline: none;
+  height: 40px;
+}
