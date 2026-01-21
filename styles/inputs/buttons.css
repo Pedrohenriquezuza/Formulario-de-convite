@@ -1,0 +1,25 @@
+button {
+  all: unset;
+  padding: 14px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &.btn-primary {
+    color: white;
+    background-color: var(--brand-dark);
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    font-weight: bold;
+
+    & svg {
+      margin-right: 12px;
+      width: 20px;
+      height: 20px;
+      color: white;
+      flex-shrink: 0;
+    }
+  }
+}

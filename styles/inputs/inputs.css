@@ -2,6 +2,12 @@ input[type="text"],
 input[type="datetime-local"] {
   width: 100%;
 }
+
+.form:has(button[type="submit"]:active) input:required:invalid {
+  border-color: red;
+}
+
+
 #event-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
